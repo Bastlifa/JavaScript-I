@@ -29,7 +29,7 @@
 // });
 // console.log(triple);
 
-let myFunction = _ => console.log("Function was invoked!");
+let myFunction = _ => { console.log("Function was invoked!"); return;}
 myFunction();
 
 let anotherFunction = param => param;
